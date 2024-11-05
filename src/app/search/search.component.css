@@ -1,0 +1,42 @@
+.search-container {
+  margin: 20px auto;
+  text-align: center;
+}
+
+.search-input {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+input {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 300px;
+}
+
+.btn {
+  padding: 10px 15px;
+  font-size: 1rem;
+}
+
+.loading-spinner {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  color: #007bff;
+}
+
+.no-results {
+  margin-top: 10px;
+  color: #dc3545;
+  font-weight: bold;
+}
+
+.movie-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
